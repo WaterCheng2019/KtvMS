@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C8DC92B9-2428-467D-9A62-B21F892B745F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KtvMS</RootNamespace>
+    <AssemblyName>KtvMS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmAdmin.Designer.cs">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmDownloadHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmDownloadHistory.Designer.cs">
+      <DependentUpon>FrmDownloadHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmEidtPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmEidtPwd.Designer.cs">
+      <DependentUpon>FrmEidtPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmPlayHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmPlayHistory.Designer.cs">
+      <DependentUpon>FrmPlayHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmSinger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmSinger.Designer.cs">
+      <DependentUpon>FrmSinger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmSong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmSong.Designer.cs">
+      <DependentUpon>FrmSong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FrmUser.Designer.cs">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Admin\FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmDownloadHistory.resx">
+      <DependentUpon>FrmDownloadHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmEidtPwd.resx">
+      <DependentUpon>FrmEidtPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmPlayHistory.resx">
+      <DependentUpon>FrmPlayHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmSinger.resx">
+      <DependentUpon>FrmSinger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmSong.resx">
+      <DependentUpon>FrmSong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KtvMSModel\KtvMSModel.csproj">
+      <Project>{b1a8d458-cc3c-41eb-8d41-da3cbded9bf7}</Project>
+      <Name>KtvMSModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KtvSYSBLL\KtvMSBLL.csproj">
+      <Project>{c46acef3-b684-4b82-9934-75876b2c0e53}</Project>
+      <Name>KtvMSBLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Images\Singer\默认图.png" />
+    <Content Include="bin\Debug\Images\默认图片\默认图.png" />
+    <None Include="bin\Release\Images\About.jpg" />
+    <Content Include="Resources\cancel.png" />
+    <Content Include="Resources\filesave.png" />
+    <Content Include="Resources\reload.png" />
+    <Content Include="Resources\Remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\misucs\" />
+    <Folder Include="lib\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

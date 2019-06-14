@@ -1,0 +1,10 @@
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\KtvMSModel.dll
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\KtvMSModel.pdb
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\Json.dll
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\Newtonsoft.Json.dll
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\Json.pdb
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\Newtonsoft.Json.pdb
+Z:\新建文件夹\KtvMS\KtvMSModel\bin\Release\Newtonsoft.Json.xml
+Z:\新建文件夹\KtvMS\KtvMSModel\obj\Release\KtvMSModel.csprojResolveAssemblyReference.cache
+Z:\新建文件夹\KtvMS\KtvMSModel\obj\Release\KtvMSModel.dll
+Z:\新建文件夹\KtvMS\KtvMSModel\obj\Release\KtvMSModel.pdb

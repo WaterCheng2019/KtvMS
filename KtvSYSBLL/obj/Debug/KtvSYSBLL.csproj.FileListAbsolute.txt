@@ -1,0 +1,4 @@
+C:\GitHub\KtvMS\KtvSYSBLL\bin\Debug\KtvSYSBLL.dll
+C:\GitHub\KtvMS\KtvSYSBLL\bin\Debug\KtvSYSBLL.pdb
+C:\GitHub\KtvMS\KtvSYSBLL\obj\Debug\KtvSYSBLL.dll
+C:\GitHub\KtvMS\KtvSYSBLL\obj\Debug\KtvSYSBLL.pdb

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KtvMS", "KtvMS\KtvMS.csproj", "{C8DC92B9-2428-467D-9A62-B21F892B745F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KtvMSModel", "KtvMSModel\KtvMSModel.csproj", "{B1A8D458-CC3C-41EB-8D41-DA3CBDED9BF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KtvMSDAL", "KtvMSDAL\KtvMSDAL.csproj", "{6357F844-10C6-4E1B-8575-76CF93926FB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KtvMSBLL", "KtvSYSBLL\KtvMSBLL.csproj", "{C46ACEF3-B684-4B82-9934-75876B2C0E53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8DC92B9-2428-467D-9A62-B21F892B745F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8DC92B9-2428-467D-9A62-B21F892B745F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8DC92B9-2428-467D-9A62-B21F892B745F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8DC92B9-2428-467D-9A62-B21F892B745F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A8D458-CC3C-41EB-8D41-DA3CBDED9BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A8D458-CC3C-41EB-8D41-DA3CBDED9BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A8D458-CC3C-41EB-8D41-DA3CBDED9BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A8D458-CC3C-41EB-8D41-DA3CBDED9BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6357F844-10C6-4E1B-8575-76CF93926FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6357F844-10C6-4E1B-8575-76CF93926FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6357F844-10C6-4E1B-8575-76CF93926FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6357F844-10C6-4E1B-8575-76CF93926FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46ACEF3-B684-4B82-9934-75876B2C0E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46ACEF3-B684-4B82-9934-75876B2C0E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46ACEF3-B684-4B82-9934-75876B2C0E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46ACEF3-B684-4B82-9934-75876B2C0E53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

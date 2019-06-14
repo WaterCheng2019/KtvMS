@@ -132,9 +132,8 @@
             this.panel1.Controls.Add(this.tc);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1312, 724);
+            this.panel1.Size = new System.Drawing.Size(984, 579);
             this.panel1.TabIndex = 0;
             // 
             // tc
@@ -144,10 +143,9 @@
             this.tc.Controls.Add(this.tabPage3);
             this.tc.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tc.Location = new System.Drawing.Point(0, 0);
-            this.tc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tc.Name = "tc";
             this.tc.SelectedIndex = 0;
-            this.tc.Size = new System.Drawing.Size(1312, 724);
+            this.tc.Size = new System.Drawing.Size(984, 579);
             this.tc.TabIndex = 3;
             this.tc.SelectedIndexChanged += new System.EventHandler(this.tc_SelectedIndexChanged);
             // 
@@ -156,11 +154,10 @@
             this.tb01.Controls.Add(this.panel4);
             this.tb01.Controls.Add(this.panel2);
             this.tb01.Controls.Add(this.panel3);
-            this.tb01.Location = new System.Drawing.Point(4, 25);
-            this.tb01.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb01.Location = new System.Drawing.Point(4, 22);
             this.tb01.Name = "tb01";
-            this.tb01.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tb01.Size = new System.Drawing.Size(1304, 695);
+            this.tb01.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tb01.Size = new System.Drawing.Size(976, 553);
             this.tb01.TabIndex = 0;
             this.tb01.Text = "主页面";
             this.tb01.UseVisualStyleBackColor = true;
@@ -171,19 +168,17 @@
             this.panel4.Controls.Add(this.txtName);
             this.panel4.Controls.Add(this.lblSongName1);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel4.Location = new System.Drawing.Point(4, 4);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Location = new System.Drawing.Point(3, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1296, 48);
+            this.panel4.Size = new System.Drawing.Size(970, 38);
             this.panel4.TabIndex = 2;
             // 
             // btnSearchSong
             // 
             this.btnSearchSong.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSearchSong.Location = new System.Drawing.Point(401, 6);
-            this.btnSearchSong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSearchSong.Location = new System.Drawing.Point(301, 5);
             this.btnSearchSong.Name = "btnSearchSong";
-            this.btnSearchSong.Size = new System.Drawing.Size(116, 35);
+            this.btnSearchSong.Size = new System.Drawing.Size(87, 28);
             this.btnSearchSong.TabIndex = 2;
             this.btnSearchSong.Text = "查 询";
             this.btnSearchSong.UseVisualStyleBackColor = true;
@@ -192,20 +187,18 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtName.Location = new System.Drawing.Point(23, 9);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Location = new System.Drawing.Point(17, 7);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(349, 29);
+            this.txtName.Size = new System.Drawing.Size(263, 25);
             this.txtName.TabIndex = 1;
             // 
             // lblSongName1
             // 
             this.lblSongName1.AutoSize = true;
             this.lblSongName1.Font = new System.Drawing.Font("微软雅黑", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblSongName1.Location = new System.Drawing.Point(563, 14);
-            this.lblSongName1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSongName1.Location = new System.Drawing.Point(422, 11);
             this.lblSongName1.Name = "lblSongName1";
-            this.lblSongName1.Size = new System.Drawing.Size(172, 27);
+            this.lblSongName1.Size = new System.Drawing.Size(138, 22);
             this.lblSongName1.TabIndex = 0;
             this.lblSongName1.Text = "正在播放的歌曲：";
             // 
@@ -213,10 +206,9 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.Controls.Add(this.dgvSong1);
-            this.panel2.Location = new System.Drawing.Point(4, 59);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Location = new System.Drawing.Point(3, 47);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1289, 571);
+            this.panel2.Size = new System.Drawing.Size(967, 457);
             this.panel2.TabIndex = 0;
             // 
             // dgvSong1
@@ -257,7 +249,6 @@
             this.dgvSong1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvSong1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvSong1.Location = new System.Drawing.Point(0, 0);
-            this.dgvSong1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvSong1.MultiSelect = false;
             this.dgvSong1.Name = "dgvSong1";
             this.dgvSong1.ReadOnly = true;
@@ -272,7 +263,7 @@
             this.dgvSong1.RowHeadersWidth = 80;
             this.dgvSong1.RowTemplate.Height = 23;
             this.dgvSong1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvSong1.Size = new System.Drawing.Size(1289, 571);
+            this.dgvSong1.Size = new System.Drawing.Size(967, 457);
             this.dgvSong1.TabIndex = 0;
             this.dgvSong1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSong1_CellDoubleClick_1);
             this.dgvSong1.RowStateChanged += new System.Windows.Forms.DataGridViewRowStateChangedEventHandler(this.dgvSong1_RowStateChanged_1);
@@ -374,21 +365,19 @@
             // 
             this.panel3.Controls.Add(this.wmpSong);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel3.Location = new System.Drawing.Point(4, 641);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Location = new System.Drawing.Point(3, 510);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1296, 50);
+            this.panel3.Size = new System.Drawing.Size(970, 40);
             this.panel3.TabIndex = 1;
             // 
             // wmpSong
             // 
             this.wmpSong.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.wmpSong.Enabled = true;
-            this.wmpSong.Location = new System.Drawing.Point(0, 2);
-            this.wmpSong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.wmpSong.Location = new System.Drawing.Point(0, -8);
             this.wmpSong.Name = "wmpSong";
             this.wmpSong.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("wmpSong.OcxState")));
-            this.wmpSong.Size = new System.Drawing.Size(1296, 48);
+            this.wmpSong.Size = new System.Drawing.Size(970, 48);
             this.wmpSong.TabIndex = 0;
             // 
             // tb02
@@ -396,11 +385,10 @@
             this.tb02.Controls.Add(this.panel8);
             this.tb02.Controls.Add(this.panel7);
             this.tb02.Controls.Add(this.panel6);
-            this.tb02.Location = new System.Drawing.Point(4, 25);
-            this.tb02.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb02.Location = new System.Drawing.Point(4, 22);
             this.tb02.Name = "tb02";
-            this.tb02.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tb02.Size = new System.Drawing.Size(1304, 695);
+            this.tb02.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tb02.Size = new System.Drawing.Size(976, 553);
             this.tb02.TabIndex = 1;
             this.tb02.Text = "歌曲下载";
             this.tb02.UseVisualStyleBackColor = true;
@@ -416,20 +404,19 @@
             this.panel8.Controls.Add(this.btnNextPage);
             this.panel8.Controls.Add(this.btnLastPage);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel8.Location = new System.Drawing.Point(4, 597);
-            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel8.Location = new System.Drawing.Point(3, 475);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1296, 94);
+            this.panel8.Size = new System.Drawing.Size(970, 75);
             this.panel8.TabIndex = 2;
             // 
             // lblPageIndex
             // 
             this.lblPageIndex.AutoSize = true;
             this.lblPageIndex.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblPageIndex.Location = new System.Drawing.Point(883, 8);
-            this.lblPageIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPageIndex.Location = new System.Drawing.Point(662, 6);
             this.lblPageIndex.Name = "lblPageIndex";
-            this.lblPageIndex.Size = new System.Drawing.Size(0, 23);
+            this.lblPageIndex.Size = new System.Drawing.Size(0, 19);
             this.lblPageIndex.TabIndex = 8;
             this.lblPageIndex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -439,31 +426,31 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsLable,
             this.tsState});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 69);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 53);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 13, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(1296, 25);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 10, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(970, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
             // tsLable
             // 
             this.tsLable.Name = "tsLable";
-            this.tsLable.Size = new System.Drawing.Size(84, 20);
+            this.tsLable.Size = new System.Drawing.Size(68, 17);
             this.tsLable.Text = "准备就绪：";
             // 
             // tsState
             // 
             this.tsState.Name = "tsState";
-            this.tsState.Size = new System.Drawing.Size(200, 24);
+            this.tsState.Size = new System.Drawing.Size(150, 19);
             this.tsState.Visible = false;
             // 
             // btnStartDownLoad
             // 
-            this.btnStartDownLoad.Location = new System.Drawing.Point(691, 29);
-            this.btnStartDownLoad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnStartDownLoad.Location = new System.Drawing.Point(518, 23);
+            this.btnStartDownLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStartDownLoad.Name = "btnStartDownLoad";
-            this.btnStartDownLoad.Size = new System.Drawing.Size(96, 30);
+            this.btnStartDownLoad.Size = new System.Drawing.Size(72, 24);
             this.btnStartDownLoad.TabIndex = 6;
             this.btnStartDownLoad.Text = "开始下载";
             this.btnStartDownLoad.UseVisualStyleBackColor = true;
@@ -471,10 +458,10 @@
             // 
             // btnDownLoadPath
             // 
-            this.btnDownLoadPath.Location = new System.Drawing.Point(583, 29);
-            this.btnDownLoadPath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnDownLoadPath.Location = new System.Drawing.Point(437, 23);
+            this.btnDownLoadPath.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDownLoadPath.Name = "btnDownLoadPath";
-            this.btnDownLoadPath.Size = new System.Drawing.Size(75, 30);
+            this.btnDownLoadPath.Size = new System.Drawing.Size(56, 24);
             this.btnDownLoadPath.TabIndex = 5;
             this.btnDownLoadPath.Text = "浏览";
             this.btnDownLoadPath.UseVisualStyleBackColor = true;
@@ -483,18 +470,19 @@
             // txtDownLoadPath
             // 
             this.txtDownLoadPath.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtDownLoadPath.Location = new System.Drawing.Point(61, 25);
-            this.txtDownLoadPath.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtDownLoadPath.Location = new System.Drawing.Point(46, 20);
+            this.txtDownLoadPath.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtDownLoadPath.Name = "txtDownLoadPath";
-            this.txtDownLoadPath.Size = new System.Drawing.Size(503, 30);
+            this.txtDownLoadPath.Size = new System.Drawing.Size(378, 25);
             this.txtDownLoadPath.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 31);
+            this.label3.Location = new System.Drawing.Point(3, 25);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(67, 15);
+            this.label3.Size = new System.Drawing.Size(53, 12);
             this.label3.TabIndex = 4;
             this.label3.Text = "下载到：";
             // 
@@ -502,10 +490,10 @@
             // 
             this.btnNextPage.Enabled = false;
             this.btnNextPage.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnNextPage.Location = new System.Drawing.Point(1189, 2);
-            this.btnNextPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnNextPage.Location = new System.Drawing.Point(892, 2);
+            this.btnNextPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNextPage.Name = "btnNextPage";
-            this.btnNextPage.Size = new System.Drawing.Size(99, 45);
+            this.btnNextPage.Size = new System.Drawing.Size(74, 36);
             this.btnNextPage.TabIndex = 3;
             this.btnNextPage.Text = "下一页";
             this.btnNextPage.UseVisualStyleBackColor = true;
@@ -515,10 +503,10 @@
             // 
             this.btnLastPage.Enabled = false;
             this.btnLastPage.Font = new System.Drawing.Font("微软雅黑", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnLastPage.Location = new System.Drawing.Point(1041, 2);
-            this.btnLastPage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnLastPage.Location = new System.Drawing.Point(781, 2);
+            this.btnLastPage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLastPage.Name = "btnLastPage";
-            this.btnLastPage.Size = new System.Drawing.Size(96, 44);
+            this.btnLastPage.Size = new System.Drawing.Size(72, 35);
             this.btnLastPage.TabIndex = 2;
             this.btnLastPage.Text = "上一页";
             this.btnLastPage.UseVisualStyleBackColor = true;
@@ -527,10 +515,10 @@
             // panel7
             // 
             this.panel7.Controls.Add(this.lvSongs);
-            this.panel7.Location = new System.Drawing.Point(4, 58);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel7.Location = new System.Drawing.Point(3, 46);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1293, 531);
+            this.panel7.Size = new System.Drawing.Size(970, 425);
             this.panel7.TabIndex = 1;
             // 
             // lvSongs
@@ -547,10 +535,10 @@
             this.lvSongs.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.lvSongs.FullRowSelect = true;
             this.lvSongs.Location = new System.Drawing.Point(0, 0);
-            this.lvSongs.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lvSongs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lvSongs.MultiSelect = false;
             this.lvSongs.Name = "lvSongs";
-            this.lvSongs.Size = new System.Drawing.Size(1293, 531);
+            this.lvSongs.Size = new System.Drawing.Size(970, 425);
             this.lvSongs.TabIndex = 0;
             this.lvSongs.UseCompatibleStateImageBehavior = false;
             this.lvSongs.View = System.Windows.Forms.View.Details;
@@ -595,29 +583,28 @@
             this.panel6.Controls.Add(this.txtSearch);
             this.panel6.Controls.Add(this.btnSearch);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel6.Location = new System.Drawing.Point(4, 4);
-            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel6.Location = new System.Drawing.Point(3, 3);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1296, 48);
+            this.panel6.Size = new System.Drawing.Size(970, 38);
             this.panel6.TabIndex = 0;
             // 
             // txtSearch
             // 
             this.txtSearch.Font = new System.Drawing.Font("微软雅黑", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtSearch.Location = new System.Drawing.Point(4, 14);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtSearch.Location = new System.Drawing.Point(3, 11);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(388, 30);
+            this.txtSearch.Size = new System.Drawing.Size(292, 25);
             this.txtSearch.TabIndex = 0;
-            this.txtSearch.Text = "周杰伦";
             // 
             // btnSearch
             // 
             this.btnSearch.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnSearch.Location = new System.Drawing.Point(427, 14);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnSearch.Location = new System.Drawing.Point(320, 11);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(75, 32);
+            this.btnSearch.Size = new System.Drawing.Size(56, 26);
             this.btnSearch.TabIndex = 0;
             this.btnSearch.Text = "搜索";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -626,11 +613,11 @@
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.panel5);
-            this.tabPage3.Location = new System.Drawing.Point(4, 25);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabPage3.Size = new System.Drawing.Size(1304, 695);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabPage3.Size = new System.Drawing.Size(976, 553);
             this.tabPage3.TabIndex = 4;
             this.tabPage3.Text = "登陆后台";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -642,18 +629,16 @@
             this.panel5.Controls.Add(this.txtUserName);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label1);
-            this.panel5.Location = new System.Drawing.Point(273, 88);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Location = new System.Drawing.Point(205, 70);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(477, 324);
+            this.panel5.Size = new System.Drawing.Size(358, 259);
             this.panel5.TabIndex = 0;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(181, 225);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnLogin.Location = new System.Drawing.Point(136, 180);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(140, 35);
+            this.btnLogin.Size = new System.Drawing.Size(105, 28);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "登  陆";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -661,38 +646,34 @@
             // 
             // txtUserPwd
             // 
-            this.txtUserPwd.Location = new System.Drawing.Point(135, 148);
-            this.txtUserPwd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUserPwd.Location = new System.Drawing.Point(101, 118);
             this.txtUserPwd.Name = "txtUserPwd";
             this.txtUserPwd.PasswordChar = '*';
-            this.txtUserPwd.Size = new System.Drawing.Size(265, 25);
+            this.txtUserPwd.Size = new System.Drawing.Size(200, 21);
             this.txtUserPwd.TabIndex = 1;
             // 
             // txtUserName
             // 
-            this.txtUserName.Location = new System.Drawing.Point(135, 56);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUserName.Location = new System.Drawing.Point(101, 45);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(265, 25);
+            this.txtUserName.Size = new System.Drawing.Size(200, 21);
             this.txtUserName.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(57, 151);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(43, 121);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 15);
+            this.label2.Size = new System.Drawing.Size(53, 12);
             this.label2.TabIndex = 1;
             this.label2.Text = "密    码";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(57, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(43, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 0;
             this.label1.Text = "用户名";
             // 
@@ -826,13 +807,13 @@
             // 
             // FrmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1312, 724);
+            this.ClientSize = new System.Drawing.Size(984, 579);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.Name = "FrmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

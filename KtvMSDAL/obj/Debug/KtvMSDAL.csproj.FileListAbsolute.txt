@@ -34,3 +34,15 @@ G:\新建文件夹\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.xml
 Z:\新建文件夹\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.dll
 Z:\新建文件夹\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.pdb
 Z:\新建文件夹\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.xml
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\KtvMSDAL.dll
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\KtvMSDAL.pdb
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\KtvMSModel.dll
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.dll
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\Json.dll
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\KtvMSModel.pdb
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.pdb
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\Newtonsoft.Json.xml
+D:\@99我的项目文件\KtvMS\KtvMSDAL\bin\Debug\Json.pdb
+D:\@99我的项目文件\KtvMS\KtvMSDAL\obj\Debug\KtvMSDAL.csprojResolveAssemblyReference.cache
+D:\@99我的项目文件\KtvMS\KtvMSDAL\obj\Debug\KtvMSDAL.dll
+D:\@99我的项目文件\KtvMS\KtvMSDAL\obj\Debug\KtvMSDAL.pdb

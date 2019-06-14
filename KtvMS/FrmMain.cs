@@ -37,7 +37,6 @@ namespace KtvMS
         {
             txtUserName.Text = "admin";
             bindSongs();
-            //tc.SelectedIndex = 1;
 
             txtDownLoadPath.Text = path;
         }

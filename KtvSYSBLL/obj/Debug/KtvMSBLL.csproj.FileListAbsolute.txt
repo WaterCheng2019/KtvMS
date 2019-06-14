@@ -35,3 +35,17 @@ G:\新建文件夹\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.xml
 Z:\新建文件夹\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.dll
 Z:\新建文件夹\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.pdb
 Z:\新建文件夹\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.xml
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\KtvSYSBLL.dll
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\KtvSYSBLL.pdb
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\KtvMSDAL.dll
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\KtvMSModel.dll
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.dll
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\Json.dll
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\KtvMSDAL.pdb
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\KtvMSModel.pdb
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.pdb
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\Newtonsoft.Json.xml
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\bin\Debug\Json.pdb
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\obj\Debug\KtvMSBLL.csprojResolveAssemblyReference.cache
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\obj\Debug\KtvSYSBLL.dll
+D:\@99我的项目文件\KtvMS\KtvSYSBLL\obj\Debug\KtvSYSBLL.pdb
